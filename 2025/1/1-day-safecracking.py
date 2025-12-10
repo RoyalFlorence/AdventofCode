@@ -7,10 +7,10 @@ import time
 
 position = 50
 zero_counter = 0
-dial_max = 99
-waitTime = 0.5
+dial_max = 100
+waitTime = 0.0
 
-with open('safe-dial-list-1.csv') as file:
+with open('~/AdventofCode/2025/1/safe-dial-list-1.csv') as file:
     reader = csv.reader(file)
     for ii in reader:
         text = ii[0]
